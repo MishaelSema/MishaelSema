@@ -1,0 +1,73 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+*.pyo
+*.pyd
+
+# Ignore database migrations
+**/migrations/*
+
+# If you are using Django Compressor
+COMPRESSOR/
+
+# Media files
+media/
+staticfiles/
+
+# Static files collected by 'collectstatic'
+static/
+
+# Virtual environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments and environments configuration
+.env
+*.env
+
+# Security sensitive files
+secrets.json
+
+# OS specific
+.DS_Store
+Thumbs.db
