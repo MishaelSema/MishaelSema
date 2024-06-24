@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Subscription Details</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* You can add custom styles here if needed */
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <div class="max-w-xl mx-auto p-4 bg-white shadow-md rounded-lg">
+    <h1 class="text-2xl font-bold mb-4">Subscription Details</h1>
+    <p>Dear {{ first_name }},</p>
+    <p class="mb-4">Thank you for subscribing! Here are your subscription details:</p>
+    <ul class="list-disc list-inside mb-4">
+      <li><strong>Name:</strong> {{ first_name }} {{ last_name }}</li>
+      <li><strong>Email:</strong> {{ email }}</li>
+      <li><strong>Phone:</strong> {{ phone_number }}</li>
+      <li><strong>Address:</strong> {{ address }}</li>
+      <li><strong>Pack:</strong> {{ pack_name }}</li>
+      <li><strong>Amount per month:</strong> {{ amount_per_month }}Fcfa</li>
+      <li><strong>Items:</strong> {{ items_list }}</li>
+    </ul>
+    <p>Best regards,</p>
+    <p>CADIF Team</p>
+  </div>
+</body>
+</html>

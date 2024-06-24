@@ -1,0 +1,53 @@
+Taf 1:
+
+1- Created a Django Sponsors project.
+2- Created an application called packs.
+
+App features:
+
+- Displays the different packs with descriptions of each pack.
+- allow users to subscribe to the packs that interest them through a form.
+- created a personalized pack allowing users to choose the different types of things that interest them.
+
+Nb: the CSS and design must be perfect green, white and black color
+
+
+-----------------------------------------------------pack details-------------------------------------------------------------------
+SPONSOR DIAMANT = 50 000 000F (77 000 EURO)
+Avantages du Package
+1- Pas plus de deux sponsors
+2- Stand de 50 mètres carrée
+3- 40 invitations pour soirée de gala
+4- Deux pages intérieures de promotion de la structure dans le catalogue de l'événement, avec la possibilité d'une page en plus d'une interview du manager général de ladite structure (photo à la UNE)
+5- Deux pages de promotion dans le rapport final
+6- Branding espace préférentiel dans la salle de conférences
+7- Branding à l'entrée du village de l'exposition
+8- Branding dans la salle de la soirée de gala
+9- Logo avec mention sponsor Diamant dans sur tous les visuels de l'événement (Dossiers de presse, billets d'invitation, affiches, plaquettes, spots radio et télévision, badges, shopping bag)
+10- Un espace de promotion dans l'un des medias partenaires de l'événement.
+11- Promotion dans le site internet officiel de l'événement
+
+
+SPONSOR OR = 40 000 000F (60 000 EURO)
+Avantages du Package
+1- Pas plus de trois sponsors
+2- Stand d'exposition de 50 mètres carrée
+3- 20 billets d'invitations pour la soirée de gala
+4- Deux pages intérieures de promotion de la structure dans le catalogue de l'événement, avec possibilité d'une page en plus d'une interview du manager général de ladite strcture. (photo à la UNE)
+5- Deux pages intérieures dans le rapport final
+6- Brandingdans la salle de conférences
+7- Branding dans le village de l'exposition
+8- Branding dans la salle de la soirée de gala
+9- Logo avec mention Or dans tous les visuels de l'événement (Dossiers de presse, billets d'invitation, affiches, plaquettes, spots radio et télévision, badges, shopping bag)
+10- Espace de promotion dans le site internet officiel de l'événement.
+
+
+SPONSOR ARGENT = 20 000 000F (30 000 EURO)
+Avantages du Package
+1-Stand de 25 mètres carrée
+2- 10 billets d'invitation pour la soirée de gala
+3- Une page intérieure de promotion de la structure dans le catalogue de l'événement
+4- Une page intérieure dans le rapport final
+5- Logo avec mention « sponsor Argent >>> sur les visuels de l'événement (Dossiers de presse, affiches, plaquettes, badges)
+6- Branding dans le village d'exposition
+7- Espace de promotion dans le site internet officiel de l'événement

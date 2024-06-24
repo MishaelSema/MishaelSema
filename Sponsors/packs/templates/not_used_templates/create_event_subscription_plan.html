@@ -1,0 +1,7 @@
+{% load static %}
+<!-- create_event_subscription_plan.html -->
+<form method="post" action="{% url 'create_event_subscription_plan' %}">
+    {% csrf_token %}
+    {{ item_form.as_p }}
+    <button type="submit">Select Items</button>
+</form>

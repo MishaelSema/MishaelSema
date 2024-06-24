@@ -1,0 +1,43 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Items</title>
+</head>
+<body>
+    <h1>Event Brochure</h1>
+    <ul>
+        {% for item in event_brochure_items %}
+            <li>{{ item.name }} - {{ item.price }} - {{ item.description }}</li>
+        {% endfor %}
+    </ul>
+
+    <h1>Event Catalog</h1>
+    <ul>
+        {% for item in event_catalog_items %}
+            <li>{{ item.name }} - {{ item.price }} - {{ item.description }}</li>
+        {% endfor %}
+    </ul>
+
+    <h1>Event Promotion Campaign</h1>
+    <ul>
+        {% for item in event_promotion_campaign_items %}
+            <li>{{ item.name }} - {{ item.price }} - {{ item.description }}</li>
+        {% endfor %}
+    </ul>
+
+    <h1>Branding Rights</h1>
+    <ul>
+        {% for item in branding_rights_items %}
+            <li>{{ item.name }} - {{ item.price }} - {{ item.description }}</li>
+        {% endfor %}
+    </ul>
+
+    <h1>Logo Visibility</h1>
+    <ul>
+        {% for item in logo_visibility_items %}
+            <li>{{ item.name }} - {{ item.price }} - {{ item.description }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

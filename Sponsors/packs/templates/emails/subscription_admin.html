@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Subscription Notification</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* You can add custom styles here if needed */
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <div class="max-w-xl mx-auto p-4 bg-white shadow-md rounded-lg">
+    <h1 class="text-xl font-bold text-green-500 mb-4">New Subscription Notification</h1>
+    <p>New subscription details:</p>
+    <ul class="list-disc list-inside mb-4">
+      <li><strong>Name:</strong> {{ first_name }} {{ last_name }}</li>
+      <li><strong>Email:</strong> {{ email }}</li>
+      <li><strong>Phone:</strong> {{ phone_number }}</li>
+      <li><strong>Address:</strong> {{ address }}</li>
+      <li><strong>Company Name:</strong> {{ company_name }}</li>
+      <li><strong>Company Type:</strong> {{ company_type }}</li>
+      <li><strong>Pack:</strong> {{ pack_name }}</li>
+      <li><strong>Amount per month:</strong> {{ amount_per_month }}Fcfa</li>
+      <li><strong>Items:</strong> {{ items_list }}</li>
+    </ul>
+  </div>
+</body>
+</html>
